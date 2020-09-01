@@ -1,5 +1,6 @@
 // Some helper functions
 
+// Return array with primes less than n
 module.exports.primesLessThan = function (n) {
     let primes = [2];
 
