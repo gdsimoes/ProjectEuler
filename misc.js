@@ -26,7 +26,7 @@ module.exports.primesLessThan = function (n) {
     return primes;
 };
 
-// As a simple interpretation of a multiset I use an object
+// As a simple implementation of a multiset I use an object
 // where the keys are the prime factors and the values are their power
 module.exports.primeFactors = function (n) {
     let result = {};
