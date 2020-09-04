@@ -59,3 +59,42 @@ module.exports.union = function (m1, m2) {
 
     return m;
 };
+
+// Return the number of elements of multisets
+module.exports.numberOfElements = function (mset) {
+    let result = 0;
+    for (const key in mset) {
+        result += mset[key];
+    }
+
+    return result;
+};
+
+// Return an array with all the factors of n
+module.exports.allFactors = function (n) {
+    const primeFactors = module.exports.primeFactors(n);
+
+    function helper(number, mset) {
+        // base case
+        if (Object.keys(mset).length === 0) {
+            return [number];
+        }
+
+        const key = Object.keys(mset)[0];
+        const value = mset[key];
+
+        let newmset = {};
+        Object.assign(newmset, mset);
+        delete newmset[key];
+
+        let factors = [];
+
+        for (let i = 0; i <= value; i++) {
+            factors.push(...helper(number * key ** i, newmset));
+        }
+
+        return factors;
+    }
+
+    return helper(1, primeFactors);
+};
