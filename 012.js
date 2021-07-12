@@ -1,3 +1,5 @@
+"use strict";
+
 let misc = require("./misc");
 
 // return the nth triangle number

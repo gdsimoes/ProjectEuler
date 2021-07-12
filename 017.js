@@ -1,3 +1,5 @@
+"use strict";
+
 /*
     I don't consider this type of problem to be real Mathematics, but it is a decent programming problem.
 */

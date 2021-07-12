@@ -1,3 +1,5 @@
+"use strict";
+
 function factorial(n) {
     let answer = 1n;
     for (let i = 1n; i <= n; i++) {

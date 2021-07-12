@@ -2,6 +2,8 @@
 // because I consider them artificial. So I decided to use BigInts and make
 // this problem trivial
 
+"use strict";
+
 let bigNumber = 2n ** 1000n;
 
 let result = 0n;

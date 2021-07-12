@@ -1,5 +1,7 @@
 // This is another one of these problems that seems highly artificial to me. Who cares about amicable numbers?
 
+"use strict";
+
 let misc = require("./misc");
 
 // Return true if a and b are amicable and false otherwise. If only a is given return amicable(a, sumA)

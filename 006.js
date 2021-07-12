@@ -1,6 +1,8 @@
 // There is a closed formula for this one.
 
 // return the sum of squares from 1 to n
+"use strict";
+
 function sumOfSquares(n) {
     return (n * (2 * n + 1) * (n + 1)) / 6;
 }

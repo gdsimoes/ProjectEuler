@@ -1,5 +1,7 @@
 // I don't really like problems that depend on the decimal representation of numbers...
 
+"use strict";
+
 function isPalindrome(word) {
     for (let i = 0; i < word.length; i++) {
         if (word[i] !== word[word.length - i - 1]) {

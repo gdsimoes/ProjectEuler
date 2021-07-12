@@ -1,4 +1,6 @@
 // value of a + b + c
+"use strict";
+
 const sum = 1000;
 
 // since a < b < c 1000/3 is an upper bound for a

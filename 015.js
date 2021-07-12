@@ -3,6 +3,8 @@
 // the binomial coefficient we would need to use BigInts.
 // The following function is an implementation that avoids that.
 
+"use strict";
+
 function binomialCoefficient(n, k) {
     if (k < 0 || k > n) {
         return 0;

@@ -1,4 +1,6 @@
 // I removed the beginning of the triangle and started pathNumbers with it
+"use strict";
+
 const triangle = `95 64
 17 47 82
 18 35 87 10

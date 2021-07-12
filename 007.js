@@ -2,6 +2,8 @@
 
 // What is the 10 001st prime number?
 
+"use strict";
+
 function nthPrime(n) {
     let primes = [2];
 

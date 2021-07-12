@@ -1,3 +1,5 @@
+"use strict";
+
 let misc = require("./misc");
 
 // Build the factors multiset for the answer

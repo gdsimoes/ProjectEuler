@@ -1,4 +1,6 @@
 // Probably the most efficient solution
+"use strict";
+
 let sum = 0;
 
 for (let n = 1; n < 1000; n++) {

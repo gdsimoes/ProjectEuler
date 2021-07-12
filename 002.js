@@ -1,4 +1,6 @@
 // I wanted to use a helper function because I believe this solution is very intuitive
+"use strict";
+
 function fib(n) {
     // This array starts with [fib(0), fib(1)]
     let results = [1, 1];
