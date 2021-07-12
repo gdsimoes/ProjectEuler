@@ -26,7 +26,7 @@ function addStrict(filename) {
     fs.writeFileSync(filename, contents);
 }
 
-// Return the index of the first line in 'lines' which is not empty or a single-line comment
+// Return the index of the first line in 'lines' which is neither empty nor a single-line comment
 function firstLine(lines) {
     for (const i in lines) {
         if (lines[i] !== "" && !lines[i].startsWith("//")) {
